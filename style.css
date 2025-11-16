@@ -225,6 +225,19 @@ body.dark .navbar {
   background: #222;
 }
 
+body.dark .logo {
+  color: white;
+}
+
+body.dark .nav-links a {
+  color: white;         /* FIXED: navbar links visible */
+}
+
+body.dark .nav-links a:hover {
+  background: #fff;
+  color: #5B3A29;
+}
+
 body.dark .menu-card {
   background: #333;
 }
@@ -232,6 +245,7 @@ body.dark .menu-card {
 body.dark footer {
   background: #111;
 }
+
 
 /* ---------------------- RESPONSIVENESS ---------------------- */
 
